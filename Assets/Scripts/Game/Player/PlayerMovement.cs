@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using UnityEngine;
 using Api;
@@ -8,94 +9,70 @@ namespace Game.Player
     [RequireComponent(typeof(PlayerComponents))]
     public class PlayerMovement : MonoBehaviour
     {
+        [SerializeField] private float distanceThreshold = 0.1f;
         [SerializeField] private LayerMask floorLayerMask;
 
         private IPlayerComponents _playerComponents;
         private IPlayerStats _playerStats;
-        private Rigidbody2D _rb;
+        private SpriteRenderer _spriteRenderer;
         private Animator _animator;
         private NavMeshAgent _navMeshAgent;
-        private Vector2 _movementVector;
         private Camera _mainCamera;
 
-        private Vector3 _lastPosition;
-        private Vector3 _lastDirection;
-        private Coroutine _lastMovementCall;
-
         #region Animator Stuff
-
-        private static readonly int Horizontal = Animator.StringToHash("Horizontal");
-        private static readonly int Vertical = Animator.StringToHash("Vertical");
-        private static readonly int Magnitude = Animator.StringToHash("Magnitude");
-        private static readonly int LastHorizontal = Animator.StringToHash("LastHorizontal");
-        private static readonly int LastVertical = Animator.StringToHash("LastVertical");
+        
+        private static readonly int IsWalking = Animator.StringToHash("isWalking");
 
         #endregion
+
+        private void Update()
+        {
+            if (_navMeshAgent.pathPending) return;
+            if (!(_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance + distanceThreshold)) return;
+            if (!_navMeshAgent.hasPath || _navMeshAgent.velocity.sqrMagnitude == 0f) OnDestinationReached();
+        }
 
         private void Start()
         {
             _playerComponents = GetComponent<IPlayerComponents>();
-
             if (_playerComponents == null) return;
+            
             _playerStats = _playerComponents.PlayerStats;
-            _rb = _playerComponents.PlayerRigidbody;
+            _spriteRenderer = _playerComponents.PlayerSpriteRenderer;
             _animator = _playerComponents.PlayerAnimator;
             _navMeshAgent = _playerComponents.PlayerNavMeshAgent;
-
             _mainCamera = Camera.main;
+
+            if (_navMeshAgent != null) InitializeNavMeshAgent();
+            
             GameApi.InputManager.OnMouseLeftClick += OnPlayerMove;
         }
 
-        // private void OnPlayerMove()
-        // {
-        //     var mousePosition = _mainCamera.ScreenToWorldPoint(Input.mousePosition);
-        //     mousePosition.z = 0;
-        //     
-        //     var hit = Physics2D.Raycast(mousePosition, Vector2.zero, Mathf.Infinity, floorLayerMask);
-        //
-        //     if (hit.collider == null)
-        //     {
-        //         return;
-        //     }
-        //     
-        //     var direction = (mousePosition - transform.position).normalized;
-        //     if (_lastMovementCall != null)
-        //     {
-        //         StopCoroutine(_lastMovementCall);
-        //         _rb.velocity = Vector2.zero;
-        //     }
-        //     _lastMovementCall = StartCoroutine(OnMove(mousePosition, direction));
-        // }
+        private void InitializeNavMeshAgent()
+        {
+            _navMeshAgent.updateRotation = false;
+            _navMeshAgent.updateUpAxis = false;
+            _navMeshAgent.speed = MovementSpeed;
+        }
         private void OnPlayerMove()
         {
             Vector2 mousePos = _mainCamera.ScreenToWorldPoint(Input.mousePosition);
-            var targetPos = new Vector3(mousePos.x, mousePos.y, transform.position.z);
+            var targetPos = new Vector3(mousePos.x, mousePos.y, 0);
             _navMeshAgent.SetDestination(targetPos);
+            AnimatePlayerMovement(targetPos.x);
         }
 
-        private IEnumerator OnMove(Vector3 targetPosition, Vector3 direction)
-            {
-                while (Vector2.Distance(_rb.position, targetPosition) > 0.1f)
-                {
-                    AnimatePlayerMovement(direction);
-                    _rb.velocity = direction * MovementSpeed;
-                    yield return new WaitForFixedUpdate();
-                }
-                _rb.velocity = Vector2.zero;
-                AnimatePlayerMovement(Vector2.zero);
-            }
-
-            private void AnimatePlayerMovement(Vector3 direction)
-            {
-                _animator.SetFloat(Horizontal,direction.x );
-                _animator.SetFloat(Vertical,direction.y );
-                _animator.SetFloat(Magnitude,direction.magnitude);
-                
-                if (direction.magnitude == 0) return;
-                _animator.SetFloat(LastHorizontal,direction.x);
-                _animator.SetFloat(LastVertical,direction.y);
-            }
-            
-            private float MovementSpeed => _playerStats.MovementSpeed;
+        private void AnimatePlayerMovement(float xPos)
+        {
+            _animator.SetBool(IsWalking, true);
+            _spriteRenderer.flipX = xPos < transform.position.x;
         }
+        
+        private void OnDestinationReached()
+        {
+            _animator.SetBool(IsWalking, false);
+        }
+        
+        private float MovementSpeed => _playerStats.MovementSpeed;
+    }
 }

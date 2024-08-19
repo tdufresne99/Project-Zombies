@@ -1,0 +1,5930 @@
+fileFormatVersion: 2
+guid: fc62c0bc80be4a34c9206f5ff2f985be
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: dungeon_tileset_2_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63d904d3c78d0624d982106d2168a4f0
+      internalID: -498524151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_5
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 550c0ea9b8ea27d43b9f0951746e6dea
+      internalID: -135177622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d108aed09acc714ead316152f9485ac
+      internalID: 1028222197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_7
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52415b995d9507541a5231faec2b7d8f
+      internalID: 1521366671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_8
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ba6e0b41e65fd9438a70a137a4f4e2f
+      internalID: 684796129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_9
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4978c9396d2a96d4390068f8a3d8b093
+      internalID: 2081279711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_10
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07c90aec4359a57418b6f419967e0dcd
+      internalID: -189260200
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_11
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 543cf9e6a3f577c4a94371a1d6020270
+      internalID: -417205428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_12
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58903670310860c469680ae43caba0e5
+      internalID: -2000340657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_13
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 242ebe08b249a764ab8ee3113ba7b486
+      internalID: -1614288152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_14
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f117649dcce6434bb2afd00e98f8494
+      internalID: -1394839480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_15
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06568c0331808bf4c85dcd69936522a7
+      internalID: 192141094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_16
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 425a2f0c959dcbe4cb5eac844abc27c0
+      internalID: 914239797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_17
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 929f94de5af778a4d9e3619efad08f69
+      internalID: -1179052250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_18
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a36d3af193ad8f347ad974bc7865f03c
+      internalID: 1531261391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_19
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f43b08388f9f6441b7186a362182b6e
+      internalID: 567127998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_20
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c07ebbc9cff7ff4ea14efa1d866b471
+      internalID: 1137531324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_21
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd8d5f1c4d83cdc47bcfa826c72c4161
+      internalID: 1460963290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_22
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3031cc9e015a5744b819a963ffe655a8
+      internalID: 1573060031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_23
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ce97e349e27c4b4b81a6388e48493d5
+      internalID: -1697872483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_24
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c0f6ef28b3378d142b4c1d1b4fe32e8b
+      internalID: -745894975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_25
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38adb9b3f9f08e1408e30c655deca55d
+      internalID: -901202643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_26
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b2a2be12b441f64ba7fc902e012ba36
+      internalID: 1784078809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_27
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 50e6a15ad2e59024f95971f996f10feb
+      internalID: -1304397330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_28
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f01220801e33c9a448bd104386914203
+      internalID: 2128103118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_29
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e7686f0f18e7d4f8e3312367ff9f35
+      internalID: 2106335636
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_30
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3679441500456b429330dfd1fd1b680
+      internalID: -751079606
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_31
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd8feff9cc66464099787076eab87a1
+      internalID: -1706295824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_32
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ca444bc2d70d7b4db8909c7c03ed936
+      internalID: -669720254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_33
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 528
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 897d6c71254752f44a5488115b48c17b
+      internalID: 1683053883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_34
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed71f0d3084dffd41b400185a2de6925
+      internalID: 1565660953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_35
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce3d6afdbca56d549b7447176f60d021
+      internalID: 1212859836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b1cfe661b5a2ad44b31b4dec3739ce6
+      internalID: -1869613709
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_37
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c01639dc100e27429c5ad78dbed67fc
+      internalID: 1535993425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_38
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ac546d1fa6964f44a95195d210611bc5
+      internalID: -2080484245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_39
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4792fc1e06fe4f34a824848ba96fb9e3
+      internalID: 1996969916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_40
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d396aae36c19c24b9ba5ec7dd63e17a
+      internalID: 806881537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_41
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b7a8a29e77907144fbf780432b71f2ee
+      internalID: 858945945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_42
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8c5eebeb1667734cb85724c6cf68f00
+      internalID: -2099285218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_43
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96b506ea051675b45b1658f96273bc73
+      internalID: 2043218498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_44
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c7d52f7dfb228b4caabf69809806e56
+      internalID: 732891553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_45
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 198998e7c745fd340b98dd8cdcc02fd7
+      internalID: 294212660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_46
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cabd4907b40848d43b05a37e5bb899d8
+      internalID: 38542061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_47
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a27c78926af3fd74ebc246f7d3c03f55
+      internalID: 1333563071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_48
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91dfd66b58c65904aa1c3ce71d4513f0
+      internalID: 497294643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_49
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 723aeaabf3361294b909944e042a6787
+      internalID: 1771656675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_50
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca0ae15fd7b6ef7449d85ffcae7ce4a9
+      internalID: 878642799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_51
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb4fcf9a42dc74b4fb4ce0ed331e6161
+      internalID: -707721837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_52
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 782847b14e54f194391aad5dc2b49749
+      internalID: 2048163852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_53
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a03a981dbd9e744cae6134148f5b3c8
+      internalID: -14261884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_54
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd8877704b3a6eb469d029149f4a3235
+      internalID: 1527560111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_55
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f636981da8537774d8f32a0bc77c36dc
+      internalID: -1421533756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_56
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe274ad8dd9a1d5478d7e453def6d53c
+      internalID: 1697521152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_57
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cc5406d6f097c04380a04470c43d853
+      internalID: 1645221332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_58
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95a9ed01d1cec6241890422c39930b0a
+      internalID: 84325238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_59
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b490730890f19449a15750fdf9473f2
+      internalID: -1011304176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_60
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 512
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da63e4ff8c29c54da7743dd657efbe8
+      internalID: 2028693548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_78
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 464
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 966bf96683599bc4bb29f3455380b268
+      internalID: 1759059903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_79
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 464
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94478ed8b96dd91428baa388579ca76e
+      internalID: 191159345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_80
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 464
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31974907d02baa478fe1279280f45a9
+      internalID: 2056714175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_81
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 464
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7cb2dacf88c7994183b13c8695dae53
+      internalID: -1316157870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_82
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 464
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0f4c76bf14835b749b340725c67419bf
+      internalID: -1126834216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_83
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 464
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d833ccbe3691a947ad7b786d3ede4f6
+      internalID: -1818906685
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_84
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 464
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 792e93751ca99294f9990782925872ff
+      internalID: 1500247024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_85
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 464
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78e775e201eda0c42acd4fc08976e3ca
+      internalID: 2096523025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_86
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 464
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8d2d7837d3c0594684ac1e3d44657cb
+      internalID: -1072128094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_101
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7489ef8d6018ac54c96fe511b93d7406
+      internalID: 1302489658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_102
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44b81cdfb8918df449d94476b41d3f20
+      internalID: -167160208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_103
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d1feba3dc7c7c438da6d667eaacdbe
+      internalID: -810887584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_104
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 147eec9c7586c8e4985a86a100f030c2
+      internalID: -1194772961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_105
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 545c22f5fe0a04149abf118175f9cc1b
+      internalID: 992672100
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_106
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4bd11b9109613b9408625d76987e3c29
+      internalID: 1414529757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_107
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a5b24eacd6847b4e903c7863f6ea780
+      internalID: -695591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_108
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3a7a548dd324e047adf9f1b07a7af40
+      internalID: 1014122500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_109
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb866bdfb46dc5742a70758e20dce7cb
+      internalID: -1778528339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_110
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf5c5282f592d5145aa86564a51caed6
+      internalID: -738589349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_111
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7edd5518628f2244b89410f8abc02d95
+      internalID: -16905616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_112
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6c92122bbce1e848aa08cca2079284a
+      internalID: 218957112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_113
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be282bf176d209a4e9d7be44eb3e91fd
+      internalID: -1432000320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_114
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b445d6f495fbf94498c33cf39a9056d
+      internalID: -1914976504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_115
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ad15d7dcdeaa7c4e813567421d76b59
+      internalID: 1202762169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_116
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4b779c638c1c8ad4880340a971080a0f
+      internalID: 1665935347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_117
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f900a697f6fc6464f9dfa1477e2f9c6d
+      internalID: 1319398480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_118
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 388cf0d0b1a5c2b4abf3d05b92c7a39e
+      internalID: 11599639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_119
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 575e848bd065d79429598ae6d2a42a3c
+      internalID: 1828119403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_120
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a00fce9d9741c9e4f9aa3af6510bfe21
+      internalID: 823348789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_121
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1635f1454dcb8b34abf9cb2f8adaeba1
+      internalID: 178170619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_122
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3088e02473bf745488285091efb7cabf
+      internalID: -664023802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_123
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37e00a414270b694eb6539638d2d8db8
+      internalID: -921550195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_124
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd90ecc2b360c0459390c32601cc19b
+      internalID: -293356827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_125
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb4d6230feb888c4ab242e79f2d943a5
+      internalID: -174762772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_126
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdf4eb261525ea4684d96359105a63b
+      internalID: -1464825485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_127
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa260f7d07b1ef4449aa088b567f0ba4
+      internalID: 1550978627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_128
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 277554e316656634cba18cb432d9e6eb
+      internalID: 1614427860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_129
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7e801a1a7957424280a484c93a4db49
+      internalID: 324334619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_130
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 432
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afaf06954daafba468e27eb895129b52
+      internalID: -1778501935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_131
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70e424582cbd7f149900656f4c55594b
+      internalID: -1174775192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_132
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13e5199cb65662e4a9d6f567145f28bf
+      internalID: -709540235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_133
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bde972e8e5aef34c8d5df898c30a6f2
+      internalID: 1540329708
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_134
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6396851435d942e429d585b6cba59a66
+      internalID: -1032169373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_135
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5880edf2381cf5a41bc7657b5aa51020
+      internalID: 590851658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_136
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26976eabae8527d4599a9e00e2326549
+      internalID: -241791185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_137
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0064979641807da48850c3aa88134a9c
+      internalID: -1074687852
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_138
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f97992dd45dbb5c4480e86b295553026
+      internalID: -1193761462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_139
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f472afb3cabc5a642b3b1837501f6382
+      internalID: -1885616232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_140
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 563c58f04078f38429a2c65ccee55b69
+      internalID: 323791291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_141
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8372055d9b923d9449857b080e01c71c
+      internalID: -133984059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_142
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc4788979aaabf4885b82fb232d1ef2
+      internalID: 717264608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_143
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: caf4f543ebf3d92428d08f6d7da6f41b
+      internalID: -1839693457
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_144
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bac6a286c048974896b9d45786d7747
+      internalID: -112788109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_145
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: efda27dc2c850804fad67b2fb78c4cb8
+      internalID: 759548612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_146
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd3a2d716bf0a804984ad65a6dcf87dc
+      internalID: -318245958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_147
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9143072d71f7564ab1f3c6af1c9d8db
+      internalID: -1637509724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_148
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016d54dd39d83e346ae337791bf7b86f
+      internalID: 1682563964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_149
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64cdd487ecc46f042900fd7433daed80
+      internalID: 1783459225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_150
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ab84c96300d4345a8e19e4756f56c7
+      internalID: -573543985
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_151
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa6fbefd01821946ac3d2a9ab338dce
+      internalID: -119283154
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_152
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06e85f60d1842e543822727da87a6fe8
+      internalID: -41880168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_153
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68313fbcabb4fc54aa0d60ebef9c993f
+      internalID: -1316299512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_154
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7dcbc616d14a564d8dfc05845f850a1
+      internalID: -715580271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_155
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbb79efd9d0f00d4aae63332e4b9ac99
+      internalID: -633608646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_156
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 371dd316b1fe11e49a1b9bd0ef96d816
+      internalID: -1798872945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_157
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff90c5cfbb599234aae8dac86ae5b2a1
+      internalID: -260792260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_158
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95e281468159ba949958b8543a7ceb34
+      internalID: 1087441731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_159
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cba3ff44dd6e1b45a5f5c768cfe47a5
+      internalID: 754914307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_160
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 416
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb06c7847903d0a4baae47058bda3a17
+      internalID: 1287121343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_161
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41aea1ad91114e946ba2e81da0d14384
+      internalID: 1853310345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_162
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 126d17e5357fd1c4494f5e3cbb0d2ccc
+      internalID: 1051289841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_163
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51e375844dd86c4418a918ca3f3575c4
+      internalID: -2016496269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_164
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1140f936d2fc9c45927861465738f1e
+      internalID: 997409303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_165
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1919c5528425ebb40afe4dcf51cb7a68
+      internalID: -1346105496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_166
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64623b012bee8e14783fb02c1919d0f5
+      internalID: 1405497374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_167
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 60581331e6e0da349ada111e33291bfa
+      internalID: -311695418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_168
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04447a3ebea0dc748887c2d835bf803c
+      internalID: 2120847272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_169
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b5ec08f3a35b654ea0a14ca9d7e3922
+      internalID: 103566171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_170
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f305484374bd5f419dd7a5bed724721
+      internalID: 394282591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_171
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 590ae6037d0ff46478855935445b6b10
+      internalID: -1807304911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_172
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 400
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a82e129aaaae8bb488b3d1361af1a542
+      internalID: -1825212767
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_224
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 352
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d196581f5c1869a4498e49cacd8f4a36
+      internalID: 1394861156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_225
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 352
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf6966631e3102941929b3e7392938ab
+      internalID: 1011305976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_226
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 352
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5395f7bd04a17eb42a434f01338013b8
+      internalID: -1948632416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_227
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 352
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4ea995ebc3e47d4abc0b76ee5123630
+      internalID: -944356327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_228
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 352
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6a8e92ab14a14749a6f3a4b580125e2
+      internalID: 732239288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_229
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 352
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1960e024db7fad4086d6a577105731a
+      internalID: 982554593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_242
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 352
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: be5fdd597e3223145b7a4cc8d971c677
+      internalID: -1888537436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_243
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 352
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a03280b877babe499247fb3dc0a98bf
+      internalID: 593293537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_244
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 352
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de18762b9963f07449aa1d426f97e191
+      internalID: 1562402946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_245
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 352
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df079f5a9274bc2469ff91f1fad47209
+      internalID: 365412417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_246
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 352
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: acf2dd4bd2759134c91712ecdf4040e8
+      internalID: 1393962702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_247
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 352
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c079faa620c66f34f8d8e0d3d169233c
+      internalID: -1347063448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_248
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 352
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b918756fda28a44baed2393bf7b332e
+      internalID: -1011550824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_249
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 352
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9fc3bba8b84cae64fb8e53123fd747a7
+      internalID: 641228838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_250
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 352
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d8aed38b8957b84dbce45f0469e327d
+      internalID: 1326996701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_251
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 352
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dec1025ca815e0d4286a374648051236
+      internalID: 1082001893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_252
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 352
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 075ee05dd63260d4886c3fcd39243d9a
+      internalID: 168055406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_253
+      rect:
+        serializedVersion: 2
+        x: 464
+        y: 352
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e82b336e9ade84b90c9e223277defa
+      internalID: 1225059434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_254
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 336
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43ad19e1c492f2541a7189769cceb5af
+      internalID: -1126653156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_255
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 336
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdfe81638a2902b44966ad0540b61eab
+      internalID: -643172393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_256
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 336
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 032101dfb536cce46aeb97c6630801f7
+      internalID: 2025489603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_257
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 336
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 156824331468a77459093a613366b051
+      internalID: -972975402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_258
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 336
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9cf75085d5313224e8427476b08d84a6
+      internalID: -184357755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_259
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 336
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fbe539b1fc893f41b38caad1923380a
+      internalID: 777256344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_260
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 336
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f7ba263690cc6a43976a30a71c050dd
+      internalID: -1034441610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_261
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 336
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc16c2438d289a74f93a004591366eb7
+      internalID: -517580362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_262
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 336
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bbc161e96fe7b8489851a32a1c81f80
+      internalID: -426927197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_263
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 336
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e48ca58ce1abe7840ab3e1894911ead9
+      internalID: -1077859620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_292
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b0d5696b678c5b4f940d3c8b15c0e33
+      internalID: -1651811032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_293
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75360dfd1f2e0647b2bd9d0c7d9330a
+      internalID: -1924961327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_294
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 304
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 980f4ecfcf6a7bf4eb60904e151b2314
+      internalID: 1359877022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_303
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9af82523372047d4aa4a3c7bdb74e7e5
+      internalID: 131253769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_307
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 288
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21ce22bb97cc7df4ab53e263465ee465
+      internalID: 71280397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_308
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 288
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f17f78ba1ef3c0e40b93572de3eeb58e
+      internalID: -1536687220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_309
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 288
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c21b7c39b2a2f8e4cba6ade4bef786bc
+      internalID: 623166528
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_310
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 288
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 140fee1e7667ed74b9d9af761d14d740
+      internalID: -1303542348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_311
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 288
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e481337cfec1e74ba406e71049733e6
+      internalID: 1116319047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_317
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 272
+        width: 16
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70d4b63d3dcb9f447b47bf7d81e6bf81
+      internalID: -1604815157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_340
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8694e6978daef34686a6ec100776ee8
+      internalID: -961916097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_341
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae315a41373eb224d966f2f8ba4928ff
+      internalID: -986129429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_342
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 336a3074ce44ff34da9f77a87c475798
+      internalID: -516690515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_343
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29de912f1a4909146abceaf191e0f136
+      internalID: 1763368652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_344
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4bcc77059590c246b048b3752430506
+      internalID: 58204695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_345
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46eb69ee8b0e0d84db442bf688422d57
+      internalID: -183501819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_346
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 910d5efc9ab55fc4aa09f73cad737445
+      internalID: 376527876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_347
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d57eace89ae4348a15d80a18e0c6ac
+      internalID: 959682068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_348
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47c46fc6d7042fe47952189aae31e079
+      internalID: -200309440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_350
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2aa02ef671f68ce4a9518581dc961a7a
+      internalID: 588323706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_351
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ecd6006ccafd44b976505f8a6aec6d
+      internalID: -736627114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_352
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62daebcb1cf077e429093b8b0c4f7f1f
+      internalID: 1881663485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_353
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c9c26df1242bf8478f9d91a24cfd02e
+      internalID: 869048476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_354
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd212e3533d985b4097d639aca95547e
+      internalID: -368525941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_355
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39c91966c3f6b5c46b4c0f960fa96446
+      internalID: 1272470357
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_356
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 240
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c9d8bf7617a8644a89a1b409d4ec301
+      internalID: -721697273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_368
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b81aba5a27c2d924596960ada53e8253
+      internalID: 1696983302
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_369
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6435cc5d1a082446845e6b0131dc936
+      internalID: 809340587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_370
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f95c164e5217f74fb35c324d53cf1ff
+      internalID: 1359656049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_371
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab8d6221576e7774aaedbeb3e560694b
+      internalID: -1399913629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_372
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ad5c5cbac7ae544ac2bae91f7b16f3
+      internalID: 1395209470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_373
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 96f40d863512f7e4caf405f18fb5145e
+      internalID: 875833346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_374
+      rect:
+        serializedVersion: 2
+        x: 416
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccb43dc254e394348a12fb6c4bc4db87
+      internalID: 871459773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_375
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 224
+        width: 16
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485f18bc20f767442b1b9714912d3098
+      internalID: -51181563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_401
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fb50a7b9a775054fa16ada2ab93e41c
+      internalID: 252583317
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_402
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a6e45b384dd99c4ebaedb575b79cf04
+      internalID: -943855413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_403
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 939cef229b6167d4a9c0bc5ac33b2f38
+      internalID: 1516060930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_404
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62dc02c212ec6ca4883ca5e821460cc6
+      internalID: 932751517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_405
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c518ef3ebac9824c9dd9d5fedbdf7eb
+      internalID: -964559592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_406
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d68881b86c1525f468b67423f8987e9c
+      internalID: 903330254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_407
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8e4bcac081eb064d962325d860deebd
+      internalID: 1188940885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_408
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78dc8bedfaa51e4418abd85772dd874a
+      internalID: 1149279750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_409
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7f625b72d392ef41bcd6302ab2ebdcd
+      internalID: -1591424597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_410
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520d860fcb5bc99488f7559410c55f1c
+      internalID: 1051482364
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_411
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3863b4c69c997874dad4c444bcbc8968
+      internalID: 265647668
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_412
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ff46ce03e9bd184683a34526292816e
+      internalID: -842000434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_414
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6422efa609fda8249b55cfffb0afdfdd
+      internalID: -902998600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_415
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec2224aaf78b38f47841985d6e936bf0
+      internalID: 453189420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_416
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 387ac8e698bae3446bbcc09187e43a83
+      internalID: -229309544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_417
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c239a74b4f3141f43b7ce1ee39b3774e
+      internalID: 1307127500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_418
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46a3af479e482e648b9fc712ae728299
+      internalID: -1577371897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_419
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a136c0822ba38b418f63c5107c3eec8
+      internalID: -1932883563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_421
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a479920ce013a9349bdcce7abfea97fd
+      internalID: -110478630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_422
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2681bf00f6bbdf54cb16b54b953efa14
+      internalID: -2131931888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_423
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25a127c6fc86dfc4288643cf64159c44
+      internalID: -2830975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_424
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b01f2fdb4332ca04c90baa6d2381b5ba
+      internalID: 1409596469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_450
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb4a33ea834691e4cb5cc6808a7fae38
+      internalID: 2088029456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_451
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ad875b68f8fc3e4c905e91153dc62eb
+      internalID: 103454613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_452
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84b4c75e88291664d91bbba80548eb57
+      internalID: -1347875127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_453
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc9a388fe887b3241b8a3a018f4a6343
+      internalID: 55334695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_454
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8a3c910beb3d7c54aaf7565d9367a2c7
+      internalID: -1647340227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_455
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 870238bda50fca741a93b9f48256c83d
+      internalID: -909383913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_456
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4b88c131238a514c82efb0c5b1f69ad
+      internalID: 700747873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_458
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 535fae65a63b8164094291736a85eb9e
+      internalID: -1435272603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_459
+      rect:
+        serializedVersion: 2
+        x: 144
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30cb048d7ef34e947897014a67c0c0a7
+      internalID: 592931821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_460
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73efe99ff7c1129498919dd8fbd4317a
+      internalID: -1271487882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_461
+      rect:
+        serializedVersion: 2
+        x: 176
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6a94222c6f368641a022a8cf9055483
+      internalID: 1718736180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_462
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cf6bf06327bfbf4e9905677c984be61
+      internalID: -128426094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_463
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2345495d0a8321d4da4ed46425200237
+      internalID: 1041809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_464
+      rect:
+        serializedVersion: 2
+        x: 224
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 328d9bf6ab48b7b4fb22e3bd1d04e57a
+      internalID: 1263111295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_465
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b61a0e18c7489e49aceec1c8c11b05b
+      internalID: 671960360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_466
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ebc96e99bc53b046b844f45ac9758e2
+      internalID: -2072551928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_467
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff3e327af00e9d042a9d847edc1af13e
+      internalID: -454063653
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_468
+      rect:
+        serializedVersion: 2
+        x: 288
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe4226ad10da15a4bbdf146886267ccc
+      internalID: -501247643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_469
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d74b79f3fc59b5541895f25ff6b53330
+      internalID: -1423778052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_470
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c136ad4cdbec4574aa6ffc7a5289a7fe
+      internalID: -995831314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_471
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d962c5ca532fc49a49f5c41082fe01
+      internalID: -1292431707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_472
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d29d41b1011b03d4fa25bf33c8c290c9
+      internalID: 2071615150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_473
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 071157c227c570045930328e605f318a
+      internalID: -981394811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dungeon_tileset_2_474
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f6b5fc6d5f0d874e89d3867b8e9bbf4
+      internalID: -1916519224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      dungeon_tileset_2_0: -218170617
+      dungeon_tileset_2_1: 1014517629
+      dungeon_tileset_2_10: -189260200
+      dungeon_tileset_2_100: 1022731656
+      dungeon_tileset_2_101: 1302489658
+      dungeon_tileset_2_102: -167160208
+      dungeon_tileset_2_103: -810887584
+      dungeon_tileset_2_104: -1194772961
+      dungeon_tileset_2_105: 992672100
+      dungeon_tileset_2_106: 1414529757
+      dungeon_tileset_2_107: -695591
+      dungeon_tileset_2_108: 1014122500
+      dungeon_tileset_2_109: -1778528339
+      dungeon_tileset_2_11: -417205428
+      dungeon_tileset_2_110: -738589349
+      dungeon_tileset_2_111: -16905616
+      dungeon_tileset_2_112: 218957112
+      dungeon_tileset_2_113: -1432000320
+      dungeon_tileset_2_114: -1914976504
+      dungeon_tileset_2_115: 1202762169
+      dungeon_tileset_2_116: 1665935347
+      dungeon_tileset_2_117: 1319398480
+      dungeon_tileset_2_118: 11599639
+      dungeon_tileset_2_119: 1828119403
+      dungeon_tileset_2_12: -2000340657
+      dungeon_tileset_2_120: 823348789
+      dungeon_tileset_2_121: 178170619
+      dungeon_tileset_2_122: -664023802
+      dungeon_tileset_2_123: -921550195
+      dungeon_tileset_2_124: -293356827
+      dungeon_tileset_2_125: -174762772
+      dungeon_tileset_2_126: -1464825485
+      dungeon_tileset_2_127: 1550978627
+      dungeon_tileset_2_128: 1614427860
+      dungeon_tileset_2_129: 324334619
+      dungeon_tileset_2_13: -1614288152
+      dungeon_tileset_2_130: -1778501935
+      dungeon_tileset_2_131: -1174775192
+      dungeon_tileset_2_132: -709540235
+      dungeon_tileset_2_133: 1540329708
+      dungeon_tileset_2_134: -1032169373
+      dungeon_tileset_2_135: 590851658
+      dungeon_tileset_2_136: -241791185
+      dungeon_tileset_2_137: -1074687852
+      dungeon_tileset_2_138: -1193761462
+      dungeon_tileset_2_139: -1885616232
+      dungeon_tileset_2_14: -1394839480
+      dungeon_tileset_2_140: 323791291
+      dungeon_tileset_2_141: -133984059
+      dungeon_tileset_2_142: 717264608
+      dungeon_tileset_2_143: -1839693457
+      dungeon_tileset_2_144: -112788109
+      dungeon_tileset_2_145: 759548612
+      dungeon_tileset_2_146: -318245958
+      dungeon_tileset_2_147: -1637509724
+      dungeon_tileset_2_148: 1682563964
+      dungeon_tileset_2_149: 1783459225
+      dungeon_tileset_2_15: 192141094
+      dungeon_tileset_2_150: -573543985
+      dungeon_tileset_2_151: -119283154
+      dungeon_tileset_2_152: -41880168
+      dungeon_tileset_2_153: -1316299512
+      dungeon_tileset_2_154: -715580271
+      dungeon_tileset_2_155: -633608646
+      dungeon_tileset_2_156: -1798872945
+      dungeon_tileset_2_157: -260792260
+      dungeon_tileset_2_158: 1087441731
+      dungeon_tileset_2_159: 754914307
+      dungeon_tileset_2_16: 914239797
+      dungeon_tileset_2_160: 1287121343
+      dungeon_tileset_2_161: 1853310345
+      dungeon_tileset_2_162: 1051289841
+      dungeon_tileset_2_163: -2016496269
+      dungeon_tileset_2_164: 997409303
+      dungeon_tileset_2_165: -1346105496
+      dungeon_tileset_2_166: 1405497374
+      dungeon_tileset_2_167: -311695418
+      dungeon_tileset_2_168: 2120847272
+      dungeon_tileset_2_169: 103566171
+      dungeon_tileset_2_17: -1179052250
+      dungeon_tileset_2_170: 394282591
+      dungeon_tileset_2_171: -1807304911
+      dungeon_tileset_2_172: -1825212767
+      dungeon_tileset_2_173: -2027450943
+      dungeon_tileset_2_174: 1416121066
+      dungeon_tileset_2_175: -1286610427
+      dungeon_tileset_2_176: 1130146840
+      dungeon_tileset_2_177: 1325141124
+      dungeon_tileset_2_178: 1169497394
+      dungeon_tileset_2_179: -1077959669
+      dungeon_tileset_2_18: 1531261391
+      dungeon_tileset_2_180: 1514182297
+      dungeon_tileset_2_181: 1061683526
+      dungeon_tileset_2_182: -1847523328
+      dungeon_tileset_2_183: -1473625679
+      dungeon_tileset_2_184: 954319109
+      dungeon_tileset_2_185: 804226394
+      dungeon_tileset_2_186: 1216073229
+      dungeon_tileset_2_187: 846465259
+      dungeon_tileset_2_188: -963827623
+      dungeon_tileset_2_189: -1719035028
+      dungeon_tileset_2_19: 567127998
+      dungeon_tileset_2_190: 1870468982
+      dungeon_tileset_2_191: -686566669
+      dungeon_tileset_2_192: 950389219
+      dungeon_tileset_2_193: -1145912614
+      dungeon_tileset_2_194: 2051649426
+      dungeon_tileset_2_195: -192021898
+      dungeon_tileset_2_196: 139863135
+      dungeon_tileset_2_197: 1670877878
+      dungeon_tileset_2_198: -1711647504
+      dungeon_tileset_2_199: -171067533
+      dungeon_tileset_2_2: -1349260225
+      dungeon_tileset_2_20: 1137531324
+      dungeon_tileset_2_200: 1188598501
+      dungeon_tileset_2_201: 850226977
+      dungeon_tileset_2_202: 43901198
+      dungeon_tileset_2_203: -1023378508
+      dungeon_tileset_2_204: -1840669204
+      dungeon_tileset_2_205: -569696088
+      dungeon_tileset_2_206: -1574760632
+      dungeon_tileset_2_207: -502469961
+      dungeon_tileset_2_208: 113103528
+      dungeon_tileset_2_209: 978553730
+      dungeon_tileset_2_21: 1460963290
+      dungeon_tileset_2_210: -349916682
+      dungeon_tileset_2_211: 38426375
+      dungeon_tileset_2_212: -339384407
+      dungeon_tileset_2_213: -2017275663
+      dungeon_tileset_2_214: 151395796
+      dungeon_tileset_2_215: -1699689501
+      dungeon_tileset_2_216: 225697621
+      dungeon_tileset_2_217: 1043475754
+      dungeon_tileset_2_218: -83385296
+      dungeon_tileset_2_219: 556817477
+      dungeon_tileset_2_22: 1573060031
+      dungeon_tileset_2_220: 1112243691
+      dungeon_tileset_2_221: 791536062
+      dungeon_tileset_2_222: 1819010760
+      dungeon_tileset_2_223: -1408176424
+      dungeon_tileset_2_224: 1394861156
+      dungeon_tileset_2_225: 1011305976
+      dungeon_tileset_2_226: -1948632416
+      dungeon_tileset_2_227: -944356327
+      dungeon_tileset_2_228: 732239288
+      dungeon_tileset_2_229: 982554593
+      dungeon_tileset_2_23: -1697872483
+      dungeon_tileset_2_230: -1082139874
+      dungeon_tileset_2_231: 6455070
+      dungeon_tileset_2_232: 147036631
+      dungeon_tileset_2_233: -160820737
+      dungeon_tileset_2_234: 1324372672
+      dungeon_tileset_2_235: 939370161
+      dungeon_tileset_2_236: -1432445049
+      dungeon_tileset_2_237: -2117153326
+      dungeon_tileset_2_238: 1363650932
+      dungeon_tileset_2_239: 1169495698
+      dungeon_tileset_2_24: -745894975
+      dungeon_tileset_2_240: -1467537965
+      dungeon_tileset_2_241: 1233482592
+      dungeon_tileset_2_242: -1888537436
+      dungeon_tileset_2_243: 593293537
+      dungeon_tileset_2_244: 1562402946
+      dungeon_tileset_2_245: 365412417
+      dungeon_tileset_2_246: 1393962702
+      dungeon_tileset_2_247: -1347063448
+      dungeon_tileset_2_248: -1011550824
+      dungeon_tileset_2_249: 641228838
+      dungeon_tileset_2_25: -901202643
+      dungeon_tileset_2_250: 1326996701
+      dungeon_tileset_2_251: 1082001893
+      dungeon_tileset_2_252: 168055406
+      dungeon_tileset_2_253: 1225059434
+      dungeon_tileset_2_254: -1126653156
+      dungeon_tileset_2_255: -643172393
+      dungeon_tileset_2_256: 2025489603
+      dungeon_tileset_2_257: -972975402
+      dungeon_tileset_2_258: -184357755
+      dungeon_tileset_2_259: 777256344
+      dungeon_tileset_2_26: 1784078809
+      dungeon_tileset_2_260: -1034441610
+      dungeon_tileset_2_261: -517580362
+      dungeon_tileset_2_262: -426927197
+      dungeon_tileset_2_263: -1077859620
+      dungeon_tileset_2_264: 978852194
+      dungeon_tileset_2_265: -1322781919
+      dungeon_tileset_2_266: 96655575
+      dungeon_tileset_2_267: 837293162
+      dungeon_tileset_2_268: 1254434806
+      dungeon_tileset_2_269: -876776144
+      dungeon_tileset_2_27: -1304397330
+      dungeon_tileset_2_270: 1340460878
+      dungeon_tileset_2_271: 1220325230
+      dungeon_tileset_2_272: 1001913451
+      dungeon_tileset_2_273: -133561275
+      dungeon_tileset_2_274: 2041809482
+      dungeon_tileset_2_275: -1013964235
+      dungeon_tileset_2_276: 678184112
+      dungeon_tileset_2_277: 590154786
+      dungeon_tileset_2_278: -1296370075
+      dungeon_tileset_2_279: 1668785547
+      dungeon_tileset_2_28: 2128103118
+      dungeon_tileset_2_280: 1296010286
+      dungeon_tileset_2_281: -113467242
+      dungeon_tileset_2_282: -1450198579
+      dungeon_tileset_2_283: -1327779415
+      dungeon_tileset_2_284: -371211397
+      dungeon_tileset_2_285: -1615465813
+      dungeon_tileset_2_286: -1338558877
+      dungeon_tileset_2_287: 763356383
+      dungeon_tileset_2_288: 914056596
+      dungeon_tileset_2_289: -1828369527
+      dungeon_tileset_2_29: 2106335636
+      dungeon_tileset_2_290: 352626980
+      dungeon_tileset_2_291: 31097518
+      dungeon_tileset_2_292: -1651811032
+      dungeon_tileset_2_293: -1924961327
+      dungeon_tileset_2_294: 1359877022
+      dungeon_tileset_2_295: -256232616
+      dungeon_tileset_2_296: 2101629589
+      dungeon_tileset_2_297: 1168548786
+      dungeon_tileset_2_298: -426435613
+      dungeon_tileset_2_299: -2031972696
+      dungeon_tileset_2_3: -460827227
+      dungeon_tileset_2_30: -751079606
+      dungeon_tileset_2_300: 1619942858
+      dungeon_tileset_2_301: 1362627182
+      dungeon_tileset_2_302: 1511468042
+      dungeon_tileset_2_303: 131253769
+      dungeon_tileset_2_304: -137464870
+      dungeon_tileset_2_305: 1769707765
+      dungeon_tileset_2_306: -942941832
+      dungeon_tileset_2_307: 71280397
+      dungeon_tileset_2_308: -1536687220
+      dungeon_tileset_2_309: 623166528
+      dungeon_tileset_2_31: -1706295824
+      dungeon_tileset_2_310: -1303542348
+      dungeon_tileset_2_311: 1116319047
+      dungeon_tileset_2_312: -1353919474
+      dungeon_tileset_2_313: -1745411024
+      dungeon_tileset_2_314: 731469385
+      dungeon_tileset_2_315: -2001165114
+      dungeon_tileset_2_316: 2119738103
+      dungeon_tileset_2_317: -1604815157
+      dungeon_tileset_2_318: -1480241807
+      dungeon_tileset_2_319: 1878016480
+      dungeon_tileset_2_32: -669720254
+      dungeon_tileset_2_320: 833758849
+      dungeon_tileset_2_321: 868475678
+      dungeon_tileset_2_322: 1056507766
+      dungeon_tileset_2_323: -1499122253
+      dungeon_tileset_2_324: -1516573096
+      dungeon_tileset_2_325: -1508874791
+      dungeon_tileset_2_326: -1768196409
+      dungeon_tileset_2_327: -1833089787
+      dungeon_tileset_2_328: -548597751
+      dungeon_tileset_2_329: -840328720
+      dungeon_tileset_2_33: 1683053883
+      dungeon_tileset_2_330: -910712205
+      dungeon_tileset_2_331: -386983770
+      dungeon_tileset_2_332: 1755771593
+      dungeon_tileset_2_333: 511876055
+      dungeon_tileset_2_334: -640309266
+      dungeon_tileset_2_335: 1405673003
+      dungeon_tileset_2_336: 1457224820
+      dungeon_tileset_2_337: -1869110763
+      dungeon_tileset_2_338: -223970834
+      dungeon_tileset_2_339: -1450745118
+      dungeon_tileset_2_34: 1565660953
+      dungeon_tileset_2_340: -961916097
+      dungeon_tileset_2_341: -986129429
+      dungeon_tileset_2_342: -516690515
+      dungeon_tileset_2_343: 1763368652
+      dungeon_tileset_2_344: 58204695
+      dungeon_tileset_2_345: -183501819
+      dungeon_tileset_2_346: 376527876
+      dungeon_tileset_2_347: 959682068
+      dungeon_tileset_2_348: -200309440
+      dungeon_tileset_2_349: -1750266548
+      dungeon_tileset_2_35: 1212859836
+      dungeon_tileset_2_350: 588323706
+      dungeon_tileset_2_351: -736627114
+      dungeon_tileset_2_352: 1881663485
+      dungeon_tileset_2_353: 869048476
+      dungeon_tileset_2_354: -368525941
+      dungeon_tileset_2_355: 1272470357
+      dungeon_tileset_2_356: -721697273
+      dungeon_tileset_2_357: -1171192212
+      dungeon_tileset_2_358: -906176408
+      dungeon_tileset_2_359: 1934184903
+      dungeon_tileset_2_36: -1869613709
+      dungeon_tileset_2_360: 1105450923
+      dungeon_tileset_2_361: 155607088
+      dungeon_tileset_2_362: -2078882379
+      dungeon_tileset_2_363: 761128500
+      dungeon_tileset_2_364: -1247163889
+      dungeon_tileset_2_365: -485678090
+      dungeon_tileset_2_366: 267963972
+      dungeon_tileset_2_367: 1843084714
+      dungeon_tileset_2_368: 1696983302
+      dungeon_tileset_2_369: 809340587
+      dungeon_tileset_2_37: 1535993425
+      dungeon_tileset_2_370: 1359656049
+      dungeon_tileset_2_371: -1399913629
+      dungeon_tileset_2_372: 1395209470
+      dungeon_tileset_2_373: 875833346
+      dungeon_tileset_2_374: 871459773
+      dungeon_tileset_2_375: -51181563
+      dungeon_tileset_2_376: -1590827308
+      dungeon_tileset_2_377: -1956685829
+      dungeon_tileset_2_378: -1354023301
+      dungeon_tileset_2_379: -635217175
+      dungeon_tileset_2_38: -2080484245
+      dungeon_tileset_2_380: -275851150
+      dungeon_tileset_2_381: -574484611
+      dungeon_tileset_2_382: 1638305536
+      dungeon_tileset_2_383: 1046239181
+      dungeon_tileset_2_384: -1291391477
+      dungeon_tileset_2_385: 531430028
+      dungeon_tileset_2_386: -1607417780
+      dungeon_tileset_2_387: 1420062878
+      dungeon_tileset_2_388: -664936574
+      dungeon_tileset_2_389: -1057736295
+      dungeon_tileset_2_39: 1996969916
+      dungeon_tileset_2_390: -1645236212
+      dungeon_tileset_2_391: -1988308467
+      dungeon_tileset_2_392: 832550249
+      dungeon_tileset_2_393: -1902912540
+      dungeon_tileset_2_394: -767900024
+      dungeon_tileset_2_395: -399840484
+      dungeon_tileset_2_396: 42939268
+      dungeon_tileset_2_397: -1156133570
+      dungeon_tileset_2_398: 479580547
+      dungeon_tileset_2_399: 661605398
+      dungeon_tileset_2_4: -498524151
+      dungeon_tileset_2_40: 806881537
+      dungeon_tileset_2_400: -1178892683
+      dungeon_tileset_2_401: 252583317
+      dungeon_tileset_2_402: -943855413
+      dungeon_tileset_2_403: 1516060930
+      dungeon_tileset_2_404: 932751517
+      dungeon_tileset_2_405: -964559592
+      dungeon_tileset_2_406: 903330254
+      dungeon_tileset_2_407: 1188940885
+      dungeon_tileset_2_408: 1149279750
+      dungeon_tileset_2_409: -1591424597
+      dungeon_tileset_2_41: 858945945
+      dungeon_tileset_2_410: 1051482364
+      dungeon_tileset_2_411: 265647668
+      dungeon_tileset_2_412: -842000434
+      dungeon_tileset_2_413: 748199663
+      dungeon_tileset_2_414: -902998600
+      dungeon_tileset_2_415: 453189420
+      dungeon_tileset_2_416: -229309544
+      dungeon_tileset_2_417: 1307127500
+      dungeon_tileset_2_418: -1577371897
+      dungeon_tileset_2_419: -1932883563
+      dungeon_tileset_2_42: -2099285218
+      dungeon_tileset_2_420: -1191687642
+      dungeon_tileset_2_421: -110478630
+      dungeon_tileset_2_422: -2131931888
+      dungeon_tileset_2_423: -2830975
+      dungeon_tileset_2_424: 1409596469
+      dungeon_tileset_2_425: 1397987098
+      dungeon_tileset_2_426: -377453244
+      dungeon_tileset_2_427: -50077322
+      dungeon_tileset_2_428: 1870815339
+      dungeon_tileset_2_429: 1313371299
+      dungeon_tileset_2_43: 2043218498
+      dungeon_tileset_2_430: 844867524
+      dungeon_tileset_2_431: 2003584922
+      dungeon_tileset_2_432: -1457708501
+      dungeon_tileset_2_433: 1164123622
+      dungeon_tileset_2_434: 373097427
+      dungeon_tileset_2_435: 946186399
+      dungeon_tileset_2_436: 277646128
+      dungeon_tileset_2_437: 296769685
+      dungeon_tileset_2_438: -2008727535
+      dungeon_tileset_2_439: -1242916
+      dungeon_tileset_2_44: 732891553
+      dungeon_tileset_2_440: -901659596
+      dungeon_tileset_2_441: -124174609
+      dungeon_tileset_2_442: -2146031394
+      dungeon_tileset_2_443: 1705706719
+      dungeon_tileset_2_444: -980287124
+      dungeon_tileset_2_445: 790313070
+      dungeon_tileset_2_446: -1820980162
+      dungeon_tileset_2_447: 767553566
+      dungeon_tileset_2_448: -120902736
+      dungeon_tileset_2_449: -1036451587
+      dungeon_tileset_2_45: 294212660
+      dungeon_tileset_2_450: 2088029456
+      dungeon_tileset_2_451: 103454613
+      dungeon_tileset_2_452: -1347875127
+      dungeon_tileset_2_453: 55334695
+      dungeon_tileset_2_454: -1647340227
+      dungeon_tileset_2_455: -909383913
+      dungeon_tileset_2_456: 700747873
+      dungeon_tileset_2_457: 1581814736
+      dungeon_tileset_2_458: -1435272603
+      dungeon_tileset_2_459: 592931821
+      dungeon_tileset_2_46: 38542061
+      dungeon_tileset_2_460: -1271487882
+      dungeon_tileset_2_461: 1718736180
+      dungeon_tileset_2_462: -128426094
+      dungeon_tileset_2_463: 1041809
+      dungeon_tileset_2_464: 1263111295
+      dungeon_tileset_2_465: 671960360
+      dungeon_tileset_2_466: -2072551928
+      dungeon_tileset_2_467: -454063653
+      dungeon_tileset_2_468: -501247643
+      dungeon_tileset_2_469: -1423778052
+      dungeon_tileset_2_47: 1333563071
+      dungeon_tileset_2_470: -995831314
+      dungeon_tileset_2_471: -1292431707
+      dungeon_tileset_2_472: 2071615150
+      dungeon_tileset_2_473: -981394811
+      dungeon_tileset_2_474: -1916519224
+      dungeon_tileset_2_475: 954301614
+      dungeon_tileset_2_476: -1613824051
+      dungeon_tileset_2_477: 1110058396
+      dungeon_tileset_2_478: -2034843747
+      dungeon_tileset_2_479: 1011978782
+      dungeon_tileset_2_48: 497294643
+      dungeon_tileset_2_480: -1930805734
+      dungeon_tileset_2_481: 1441453267
+      dungeon_tileset_2_482: 20234176
+      dungeon_tileset_2_483: -110232002
+      dungeon_tileset_2_484: 1603222262
+      dungeon_tileset_2_485: -523420033
+      dungeon_tileset_2_486: -1839790678
+      dungeon_tileset_2_487: 1790579599
+      dungeon_tileset_2_488: -2071123872
+      dungeon_tileset_2_489: 850544087
+      dungeon_tileset_2_49: 1771656675
+      dungeon_tileset_2_490: 1952063908
+      dungeon_tileset_2_491: 1222344112
+      dungeon_tileset_2_492: 457978086
+      dungeon_tileset_2_493: 684202821
+      dungeon_tileset_2_494: 469484048
+      dungeon_tileset_2_495: 592131883
+      dungeon_tileset_2_496: -1373306998
+      dungeon_tileset_2_497: -228412771
+      dungeon_tileset_2_498: -892767840
+      dungeon_tileset_2_499: -2085134720
+      dungeon_tileset_2_5: -135177622
+      dungeon_tileset_2_50: 878642799
+      dungeon_tileset_2_500: 1509700845
+      dungeon_tileset_2_501: -328391844
+      dungeon_tileset_2_502: -628685942
+      dungeon_tileset_2_503: 1650028428
+      dungeon_tileset_2_504: -1380402882
+      dungeon_tileset_2_505: 610973698
+      dungeon_tileset_2_506: 661699528
+      dungeon_tileset_2_507: 623040942
+      dungeon_tileset_2_508: -736925787
+      dungeon_tileset_2_509: 542313160
+      dungeon_tileset_2_51: -707721837
+      dungeon_tileset_2_510: -915446313
+      dungeon_tileset_2_511: -1064464977
+      dungeon_tileset_2_512: 1899614878
+      dungeon_tileset_2_513: 764972536
+      dungeon_tileset_2_514: 127081671
+      dungeon_tileset_2_515: -272942386
+      dungeon_tileset_2_516: -2055767382
+      dungeon_tileset_2_517: -35620229
+      dungeon_tileset_2_518: 947117417
+      dungeon_tileset_2_519: 1913770699
+      dungeon_tileset_2_52: 2048163852
+      dungeon_tileset_2_520: -1241151157
+      dungeon_tileset_2_521: 1836678093
+      dungeon_tileset_2_522: -1212294791
+      dungeon_tileset_2_523: -777575618
+      dungeon_tileset_2_524: -1649514864
+      dungeon_tileset_2_525: -1637485685
+      dungeon_tileset_2_526: 765172334
+      dungeon_tileset_2_527: -995344382
+      dungeon_tileset_2_528: 927766923
+      dungeon_tileset_2_529: 102606952
+      dungeon_tileset_2_53: -14261884
+      dungeon_tileset_2_530: -1738884388
+      dungeon_tileset_2_531: 210075423
+      dungeon_tileset_2_532: -1067133804
+      dungeon_tileset_2_533: 1760947680
+      dungeon_tileset_2_534: -812752066
+      dungeon_tileset_2_535: 1232859486
+      dungeon_tileset_2_536: -2050607324
+      dungeon_tileset_2_537: 837892890
+      dungeon_tileset_2_538: 1552449483
+      dungeon_tileset_2_539: -1075619336
+      dungeon_tileset_2_54: 1527560111
+      dungeon_tileset_2_540: 1862738611
+      dungeon_tileset_2_541: 889937251
+      dungeon_tileset_2_542: -628565154
+      dungeon_tileset_2_543: -1066094070
+      dungeon_tileset_2_544: 385308728
+      dungeon_tileset_2_545: -1520577196
+      dungeon_tileset_2_546: 448208292
+      dungeon_tileset_2_547: -1901171456
+      dungeon_tileset_2_548: 413312839
+      dungeon_tileset_2_549: -1293707136
+      dungeon_tileset_2_55: -1421533756
+      dungeon_tileset_2_550: 523043568
+      dungeon_tileset_2_551: -1866689665
+      dungeon_tileset_2_552: -250416911
+      dungeon_tileset_2_553: 1486786756
+      dungeon_tileset_2_554: 123988651
+      dungeon_tileset_2_555: -788642025
+      dungeon_tileset_2_556: -217570294
+      dungeon_tileset_2_557: 34067711
+      dungeon_tileset_2_558: 903009595
+      dungeon_tileset_2_559: -2002988775
+      dungeon_tileset_2_56: 1697521152
+      dungeon_tileset_2_560: 559995957
+      dungeon_tileset_2_561: 728469841
+      dungeon_tileset_2_562: 2023418764
+      dungeon_tileset_2_563: 22755949
+      dungeon_tileset_2_564: -76609214
+      dungeon_tileset_2_565: -521989433
+      dungeon_tileset_2_566: 1587240349
+      dungeon_tileset_2_567: -203720447
+      dungeon_tileset_2_568: 278758861
+      dungeon_tileset_2_569: -1929710093
+      dungeon_tileset_2_57: 1645221332
+      dungeon_tileset_2_570: -1457857470
+      dungeon_tileset_2_571: -694753126
+      dungeon_tileset_2_572: 1526333521
+      dungeon_tileset_2_573: -2079215632
+      dungeon_tileset_2_574: 1398738841
+      dungeon_tileset_2_575: 1854609761
+      dungeon_tileset_2_576: 82588241
+      dungeon_tileset_2_577: 531211949
+      dungeon_tileset_2_578: -692093556
+      dungeon_tileset_2_579: -744319733
+      dungeon_tileset_2_58: 84325238
+      dungeon_tileset_2_580: -56607540
+      dungeon_tileset_2_581: 171423001
+      dungeon_tileset_2_582: -1464321883
+      dungeon_tileset_2_583: -679049036
+      dungeon_tileset_2_584: -350687091
+      dungeon_tileset_2_585: -1047563767
+      dungeon_tileset_2_586: -1890571659
+      dungeon_tileset_2_587: 475997004
+      dungeon_tileset_2_588: 2020404147
+      dungeon_tileset_2_589: -1934730346
+      dungeon_tileset_2_59: -1011304176
+      dungeon_tileset_2_590: 908920900
+      dungeon_tileset_2_591: 1193501308
+      dungeon_tileset_2_592: -937947517
+      dungeon_tileset_2_593: 732510507
+      dungeon_tileset_2_594: 2048274678
+      dungeon_tileset_2_595: -2075559842
+      dungeon_tileset_2_596: 248638091
+      dungeon_tileset_2_597: -1557165953
+      dungeon_tileset_2_598: -871746400
+      dungeon_tileset_2_599: 1265805502
+      dungeon_tileset_2_6: 1028222197
+      dungeon_tileset_2_60: 2028693548
+      dungeon_tileset_2_600: 1371139073
+      dungeon_tileset_2_601: 1585373857
+      dungeon_tileset_2_602: -2089890330
+      dungeon_tileset_2_603: -1719002887
+      dungeon_tileset_2_604: -719462633
+      dungeon_tileset_2_605: 1455797581
+      dungeon_tileset_2_606: -1833089615
+      dungeon_tileset_2_607: 418105517
+      dungeon_tileset_2_608: 905119884
+      dungeon_tileset_2_609: -620760301
+      dungeon_tileset_2_61: -1262725718
+      dungeon_tileset_2_610: 100976747
+      dungeon_tileset_2_611: 1087780558
+      dungeon_tileset_2_612: -1357364190
+      dungeon_tileset_2_613: -1498241897
+      dungeon_tileset_2_614: -1506926740
+      dungeon_tileset_2_615: -686412369
+      dungeon_tileset_2_616: -1524478377
+      dungeon_tileset_2_617: 836497748
+      dungeon_tileset_2_618: -96494394
+      dungeon_tileset_2_619: 1318017609
+      dungeon_tileset_2_62: -112750794
+      dungeon_tileset_2_620: -966775053
+      dungeon_tileset_2_621: -200203475
+      dungeon_tileset_2_622: -2051636321
+      dungeon_tileset_2_623: 1592137057
+      dungeon_tileset_2_624: -1029226272
+      dungeon_tileset_2_625: -1496947268
+      dungeon_tileset_2_626: -1745215238
+      dungeon_tileset_2_627: -398793373
+      dungeon_tileset_2_628: 1214905478
+      dungeon_tileset_2_629: 1836858014
+      dungeon_tileset_2_63: -1032390919
+      dungeon_tileset_2_630: -1384110596
+      dungeon_tileset_2_631: 143705140
+      dungeon_tileset_2_632: -1193680154
+      dungeon_tileset_2_633: 682008894
+      dungeon_tileset_2_634: -185487742
+      dungeon_tileset_2_635: -929806788
+      dungeon_tileset_2_636: -1154106651
+      dungeon_tileset_2_637: 1239603319
+      dungeon_tileset_2_638: -1433180334
+      dungeon_tileset_2_639: 1554105418
+      dungeon_tileset_2_64: 1071030303
+      dungeon_tileset_2_640: -1952954336
+      dungeon_tileset_2_641: 669330700
+      dungeon_tileset_2_642: -1242688953
+      dungeon_tileset_2_643: 1231160930
+      dungeon_tileset_2_644: -240058592
+      dungeon_tileset_2_645: -770131954
+      dungeon_tileset_2_646: -1644413359
+      dungeon_tileset_2_647: 146874079
+      dungeon_tileset_2_648: 1349415931
+      dungeon_tileset_2_649: -2030164413
+      dungeon_tileset_2_65: -1622946097
+      dungeon_tileset_2_66: -982210315
+      dungeon_tileset_2_67: 1068656551
+      dungeon_tileset_2_68: -648711180
+      dungeon_tileset_2_69: -1389543505
+      dungeon_tileset_2_7: 1521366671
+      dungeon_tileset_2_70: 1465594316
+      dungeon_tileset_2_71: -1683765564
+      dungeon_tileset_2_72: 361408010
+      dungeon_tileset_2_73: 2118241468
+      dungeon_tileset_2_74: -370973979
+      dungeon_tileset_2_75: -1792131576
+      dungeon_tileset_2_76: -439989419
+      dungeon_tileset_2_77: -271516673
+      dungeon_tileset_2_78: 1759059903
+      dungeon_tileset_2_79: 191159345
+      dungeon_tileset_2_8: 684796129
+      dungeon_tileset_2_80: 2056714175
+      dungeon_tileset_2_81: -1316157870
+      dungeon_tileset_2_82: -1126834216
+      dungeon_tileset_2_83: -1818906685
+      dungeon_tileset_2_84: 1500247024
+      dungeon_tileset_2_85: 2096523025
+      dungeon_tileset_2_86: -1072128094
+      dungeon_tileset_2_87: 2091660875
+      dungeon_tileset_2_88: -1657684189
+      dungeon_tileset_2_89: 1342826625
+      dungeon_tileset_2_9: 2081279711
+      dungeon_tileset_2_90: -1369130061
+      dungeon_tileset_2_91: 1257556044
+      dungeon_tileset_2_92: -1297366406
+      dungeon_tileset_2_93: 687145971
+      dungeon_tileset_2_94: 287435835
+      dungeon_tileset_2_95: -328230141
+      dungeon_tileset_2_96: -1736646833
+      dungeon_tileset_2_97: -269238942
+      dungeon_tileset_2_98: -544495485
+      dungeon_tileset_2_99: 1089234902
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
