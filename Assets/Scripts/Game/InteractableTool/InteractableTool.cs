@@ -1,4 +1,3 @@
-using System;
 using Api;
 using Api.InteractableTool;
 using UnityEngine;

@@ -1,3 +1,4 @@
+
 namespace Api.InteractableTool
 {
     public interface IInteractableComponent
