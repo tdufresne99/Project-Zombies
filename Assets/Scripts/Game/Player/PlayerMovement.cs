@@ -41,10 +41,10 @@ namespace Game.Player
             _spriteRenderer = _playerComponents.PlayerSpriteRenderer;
             _animator = _playerComponents.PlayerAnimator;
             _navMeshAgent = _playerComponents.PlayerNavMeshAgent;
-            _mainCamera = Camera.main;
 
             if (_navMeshAgent != null) InitializeNavMeshAgent();
             
+            _mainCamera = GameApi.MainCamera;
             GameApi.InputManager.OnMouseLeftClick += OnPlayerMove;
         }
 
