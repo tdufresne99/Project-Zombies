@@ -2,7 +2,7 @@ using UnityEngine;
 
 namespace Game.InteractableItems.Chest
 {
-    public class InteractableChest : AbstractInteractableComponent
+    public class InteractableChest : AbstractInteractable
     {
         [SerializeField] private Color highLightColor;
         private static readonly int Opened = Animator.StringToHash("opened");

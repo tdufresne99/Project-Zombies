@@ -1,7 +1,8 @@
 using Api.GameManager;
 using Api.Inputs;
-using Api.InteractableTool;
+using Api.InteractableComponents;
 using Game.Inputs;
+using Game.InteractableTool;
 using UnityEngine;
 
 namespace Api
@@ -21,14 +22,12 @@ namespace Api
             else Destroy(gameObject);
 
             var go = gameObject;
-            
-            InputManager = go.AddComponent<InputManager>();
-            GameManager = go.GetComponent<Game.GameManager.GameManager>();
-            if(GameManager == null) Debug.LogWarning("Don't forget to attach GameManager component to GameApi GameObject.");
-            
             MainCamera = Camera.main;
             
-            InteractableTool = new Game.InteractableTool.InteractableTool();
+            InputManager = go.GetComponentInChildren<InputManager>();
+            GameManager = go.GetComponent<Game.GameManager.GameManager>();
+            if(GameManager == null) Debug.LogWarning("Don't forget to attach GameManager component to GameApi GameObject.");
+            InteractableTool = go.AddComponent<InteractableTool>();
             
             DontDestroyOnLoad(go);
         }

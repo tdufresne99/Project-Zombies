@@ -1,17 +1,19 @@
 using UnityEngine;
 using Api;
+using Api.Inputs.InputUsers;
 using UnityEngine.AI;
 
 namespace Game.Player
 {
     [RequireComponent(typeof(PlayerComponents))]
-    public class PlayerMovement : MonoBehaviour
+    public class PlayerMovement : MonoBehaviour, IInputUser
     {
         [SerializeField] private float distanceThreshold = 0.1f;
         [SerializeField] private LayerMask floorLayerMask;
 
         private IPlayerComponents _playerComponents;
         private IPlayerStats _playerStats;
+        private IPlayerMovementStrategy _playerMovementStrategy;
         private SpriteRenderer _spriteRenderer;
         private Animator _animator;
         private NavMeshAgent _navMeshAgent;
@@ -25,6 +27,7 @@ namespace Game.Player
 
         private void Update()
         {
+            if (GameApi.InputManager.MoveInput) UseInput();
             if (_navMeshAgent.pathPending) return;
             if (!(_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance + distanceThreshold)) return;
             if (!_navMeshAgent.hasPath || _navMeshAgent.velocity.sqrMagnitude == 0f) OnDestinationReached();
@@ -39,11 +42,11 @@ namespace Game.Player
             _spriteRenderer = _playerComponents.PlayerSpriteRenderer;
             _animator = _playerComponents.PlayerAnimator;
             _navMeshAgent = _playerComponents.PlayerNavMeshAgent;
+            _playerMovementStrategy = new PlayerMovementStrategyToMousePos();
 
             if (_navMeshAgent != null) InitializeNavMeshAgent();
             
             _mainCamera = GameApi.MainCamera;
-            GameApi.InputManager.OnMouseLeftClick += OnPlayerMove;
         }
 
         private void InitializeNavMeshAgent()
@@ -52,12 +55,14 @@ namespace Game.Player
             _navMeshAgent.updateUpAxis = false;
             _navMeshAgent.speed = MovementSpeed;
         }
-        private void OnPlayerMove()
+        
+        public bool UseInput()
         {
-            Vector2 mousePos = _mainCamera.ScreenToWorldPoint(Input.mousePosition);
-            var targetPos = new Vector3(mousePos.x, mousePos.y, 0);
+            var targetPos = _playerMovementStrategy.DoMove();
+            
             _navMeshAgent.SetDestination(targetPos);
             AnimatePlayerMovement(targetPos.x);
+            return true;
         }
 
         private void AnimatePlayerMovement(float xPos)

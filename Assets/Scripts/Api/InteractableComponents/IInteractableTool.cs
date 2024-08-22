@@ -1,5 +1,5 @@
 
-namespace Api.InteractableTool
+namespace Api.InteractableComponents
 {
     public interface IInteractableTool
     {

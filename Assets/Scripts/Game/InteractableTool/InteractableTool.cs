@@ -1,30 +1,32 @@
+using System;
 using Api;
-using Api.InteractableTool;
+using Api.Inputs.InputUsers;
+using Api.InteractableComponents;
+using Game.Inputs;
 using UnityEngine;
 
 namespace Game.InteractableTool
 {
-    public class InteractableTool : IInteractableTool
+    public class InteractableTool : MonoBehaviour, IInteractableTool, IInputUser
     {
-        private readonly Camera _mainCamera;
-
-        public InteractableTool()
+        private void Update()
         {
-            GameApi.InputManager.OnMouseLeftClick += Interact;
-            _mainCamera = GameApi.MainCamera;
+            if (InputManager.Instance.InteractInput) UseInput();
         }
 
-        private void Interact()
+        public bool UseInput()
         {
-            Vector2 mousePos = _mainCamera.ScreenToWorldPoint(Input.mousePosition);
+            Vector2 mousePos = GameApi.MainCamera.ScreenToWorldPoint(Input.mousePosition);
             var hit = Physics2D.Raycast(mousePos, Vector2.zero);
 
-            if (hit.collider == null) return;
+            if (!hit.collider) return false;
 
-            if (hit.collider.gameObject.TryGetComponent<IInteractableComponent>(out var interactableComponent))
+            if (hit.collider.gameObject.TryGetComponent<IInteractable>(out var interactableComponent))
             {
                 interactableComponent.OnInteract();
             }
+
+            return true;
         }
     }
 }
