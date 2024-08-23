@@ -1,4 +1,3 @@
-using System;
 using Api.GameManager;
 using UnityEngine;
 
@@ -7,23 +6,12 @@ namespace Game.GameManager
     public class GameManager : MonoBehaviour, IGameManager
     {
         [SerializeField] private Transform playerTransform;
-
-        private Transform PlayerTransform
+        public Transform PlayerTransform
         {
             get => playerTransform;
-            set
-            {
-                if (playerTransform == value) return;
-                playerTransform = value;
-                OnPlayerTransformChanged?.Invoke(value);
-            }
+            set => playerTransform = value; 
         }
-        
-        public Transform GetPlayerTransform()
-        {
-            return playerTransform;
-        }
-        
-        public event Action<Transform> OnPlayerTransformChanged;
+
+        public Vector2 PlayerPosition => PlayerTransform.position;
     }
 }

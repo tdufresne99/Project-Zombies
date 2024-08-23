@@ -2,7 +2,7 @@ using Api.GameManager;
 using Api.Inputs;
 using Api.InteractableComponents;
 using Game.Inputs;
-using Game.InteractableTool;
+using Game.InteractableComponents;
 using UnityEngine;
 
 namespace Api

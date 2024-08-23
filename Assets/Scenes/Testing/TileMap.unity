@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 40928311}
   - component: {fileID: 40928310}
   - component: {fileID: 40928309}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: FrontWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -550,7 +550,7 @@ GameObject:
   - component: {fileID: 49244899}
   - component: {fileID: 49244898}
   - component: {fileID: 49244897}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Chest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -569,7 +569,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a1266ea6784345c5ad1bf52250fe3a3a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  highLightColor: {r: 1, g: 0.96905833, b: 0.740566, a: 1}
+  highlightColor: {r: 0.802, g: 0.757, b: 0.624, a: 1}
+  normalColor: {r: 1, g: 1, b: 1, a: 1}
+  useHighlight: 1
+  interactableDistance: 1
+  lockOutCooldownTime: 0.2
 --- !u!61 &49244898
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -823,7 +827,7 @@ GameObject:
   - component: {fileID: 340301013}
   - component: {fileID: 340301012}
   - component: {fileID: 340301015}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: BackWalls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1701,7 +1705,7 @@ GameObject:
   m_Component:
   - component: {fileID: 706099845}
   - component: {fileID: 706099844}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Grid
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1752,7 +1756,7 @@ GameObject:
   - component: {fileID: 719891214}
   - component: {fileID: 719891216}
   - component: {fileID: 719891215}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Shadows
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1873,7 +1877,7 @@ GameObject:
   - component: {fileID: 825319156}
   - component: {fileID: 825319155}
   - component: {fileID: 825319158}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Floor
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3802,7 +3806,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1258401158}
   - component: {fileID: 1258401159}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: shadow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3888,7 +3892,7 @@ GameObject:
   - component: {fileID: 1612228744}
   - component: {fileID: 1612228743}
   - component: {fileID: 1612228746}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Deco
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4086,7 +4090,7 @@ Tilemap:
       - {fileID: 21300000, guid: 110a611225832cb438771f5c638b6a66, type: 2}
       - {fileID: 21300000, guid: eabdfe8aa69c87e498a35c3c3450b7b6, type: 2}
       - {fileID: 21300000, guid: bd97fa7cc329cc34ebbd2eff62bdadc3, type: 2}
-      m_AnimationSpeed: 4.400896
+      m_AnimationSpeed: 4.555997
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: -5, y: 3, z: 0}
@@ -4096,7 +4100,7 @@ Tilemap:
       - {fileID: 21300000, guid: 110a611225832cb438771f5c638b6a66, type: 2}
       - {fileID: 21300000, guid: eabdfe8aa69c87e498a35c3c3450b7b6, type: 2}
       - {fileID: 21300000, guid: bd97fa7cc329cc34ebbd2eff62bdadc3, type: 2}
-      m_AnimationSpeed: 4.209664
+      m_AnimationSpeed: 5.5716286
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 1, y: 3, z: 0}
@@ -4106,7 +4110,7 @@ Tilemap:
       - {fileID: 21300000, guid: 110a611225832cb438771f5c638b6a66, type: 2}
       - {fileID: 21300000, guid: eabdfe8aa69c87e498a35c3c3450b7b6, type: 2}
       - {fileID: 21300000, guid: bd97fa7cc329cc34ebbd2eff62bdadc3, type: 2}
-      m_AnimationSpeed: 7.198448
+      m_AnimationSpeed: 4.5287323
       m_AnimationTimeOffset: 0
       m_Flags: 0
   - first: {x: 3, y: 3, z: 0}
@@ -4116,7 +4120,7 @@ Tilemap:
       - {fileID: 21300000, guid: 110a611225832cb438771f5c638b6a66, type: 2}
       - {fileID: 21300000, guid: eabdfe8aa69c87e498a35c3c3450b7b6, type: 2}
       - {fileID: 21300000, guid: bd97fa7cc329cc34ebbd2eff62bdadc3, type: 2}
-      m_AnimationSpeed: 4.1536922
+      m_AnimationSpeed: 7.8034863
       m_AnimationTimeOffset: 0
       m_Flags: 0
   m_TileAssetArray:
@@ -4261,7 +4265,7 @@ GameObject:
   - component: {fileID: 1824743064}
   - component: {fileID: 1824743063}
   - component: {fileID: 1824743066}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Doors
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4619,7 +4623,10 @@ GameObject:
   - component: {fileID: 2126400821}
   - component: {fileID: 2126400819}
   - component: {fileID: 2126400818}
-  m_Layer: 0
+  - component: {fileID: 2126400823}
+  - component: {fileID: 2126400825}
+  - component: {fileID: 2126400824}
+  m_Layer: 3
   m_Name: Player
   m_TagString: Untagged
   m_Icon: {fileID: -5397416234189338067, guid: 0000000000000000d000000000000000, type: 0}
@@ -4787,6 +4794,80 @@ NavMeshAgent:
   m_BaseOffset: 1
   m_WalkableMask: 4294967295
   m_ObstacleAvoidanceType: 4
+--- !u!114 &2126400823
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126400814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3de2d0cc33d346f0afe23059c7788bb0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!58 &2126400824
+CircleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126400814}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  serializedVersion: 2
+  m_Radius: 1
+--- !u!50 &2126400825
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2126400814}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 0.0001
+  m_LinearDrag: 0
+  m_AngularDrag: 0
+  m_GravityScale: 0
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
 --- !u!1 &2136656550
 GameObject:
   m_ObjectHideFlags: 0

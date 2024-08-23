@@ -56,13 +56,12 @@ namespace Game.Player
             _navMeshAgent.speed = MovementSpeed;
         }
         
-        public bool UseInput()
+        public void UseInput()
         {
             var targetPos = _playerMovementStrategy.DoMove();
             
             _navMeshAgent.SetDestination(targetPos);
             AnimatePlayerMovement(targetPos.x);
-            return true;
         }
 
         private void AnimatePlayerMovement(float xPos)
