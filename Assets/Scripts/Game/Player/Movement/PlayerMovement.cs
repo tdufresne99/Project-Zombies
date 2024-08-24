@@ -1,9 +1,9 @@
-using UnityEngine;
 using Api;
 using Api.Inputs.InputUsers;
+using UnityEngine;
 using UnityEngine.AI;
 
-namespace Game.Player
+namespace Game.Player.Movement
 {
     [RequireComponent(typeof(PlayerComponents))]
     public class PlayerMovement : MonoBehaviour, IInputUser
@@ -17,7 +17,6 @@ namespace Game.Player
         private SpriteRenderer _spriteRenderer;
         private Animator _animator;
         private NavMeshAgent _navMeshAgent;
-        private Camera _mainCamera;
 
         #region Animator Stuff
         
@@ -45,8 +44,6 @@ namespace Game.Player
             _playerMovementStrategy = new PlayerMovementStrategyToMousePos();
 
             if (_navMeshAgent != null) InitializeNavMeshAgent();
-            
-            _mainCamera = GameApi.MainCamera;
         }
 
         private void InitializeNavMeshAgent()
@@ -76,5 +73,11 @@ namespace Game.Player
         }
         
         private float MovementSpeed => _playerStats.MovementSpeed;
+
+        public IPlayerMovementStrategy MovementStrategy
+        {
+            get => _playerMovementStrategy;
+            set => _playerMovementStrategy = value;
+        }
     }
 }

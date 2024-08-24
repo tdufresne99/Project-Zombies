@@ -10,7 +10,7 @@ namespace Game.InteractableComponents
         [SerializeField] protected Color highlightColor = new (0.802f, 0.757f, 0.624f, 1f);
         [SerializeField] protected Color normalColor = Color.white;
         [SerializeField] protected bool useHighlight = true;
-        [SerializeField] private float interactableDistance = 1f;
+        [SerializeField] private float interactableDistance = 0.5f;
         [SerializeField] protected float lockOutCooldownTime = 0.2f;
         protected SpriteRenderer spriteRenderer;
         private InteractableRangeDetector _rangeDetector;

@@ -13,6 +13,7 @@ namespace Api
         public static IGameManager GameManager { get; private set; }
         public static Camera MainCamera { get; private set; }
         public static IInteractableTool InteractableTool { get; private set; }
+        private string _interactableLayer;
         
         private static GameApi _gameApi;
         
