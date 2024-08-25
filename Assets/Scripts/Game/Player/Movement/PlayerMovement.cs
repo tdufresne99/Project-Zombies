@@ -1,5 +1,7 @@
+using System;
 using Api;
 using Api.Inputs.InputUsers;
+using Api.Navigation;
 using UnityEngine;
 using UnityEngine.AI;
 
@@ -14,6 +16,7 @@ namespace Game.Player.Movement
         private IPlayerComponents _playerComponents;
         private IPlayerStats _playerStats;
         private IPlayerMovementStrategy _playerMovementStrategy;
+        private INavigationSurfaceManager _navigationSurfaceManager;
         private SpriteRenderer _spriteRenderer;
         private Animator _animator;
         private NavMeshAgent _navMeshAgent;

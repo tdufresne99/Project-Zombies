@@ -30,7 +30,7 @@ namespace Api
             InputManager = go.GetComponentInChildren<IInputManager>();
             NavigationSurfaceManager = go.GetComponentInChildren<INavigationSurfaceManager>();
             if(NavigationSurfaceManager == null) Debug.LogWarning("Don't forget to add NavigationSurface in GameApi children.");
-            GameManager = go.GetComponent<IGameManager>();
+            GameManager = go.GetComponentInChildren<IGameManager>();
             if(GameManager == null) Debug.LogWarning("Don't forget to attach GameManager component to GameApi GameObject.");
             InteractableTool = go.AddComponent<InteractableTool>();
             
