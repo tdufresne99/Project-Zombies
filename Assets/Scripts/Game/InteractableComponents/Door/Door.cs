@@ -1,7 +1,7 @@
-using System;
+using Api;
 using Api.InteractableComponents;
 using Api.InteractableComponents.Door;
-using Game.InteractableComponents.Lever;
+using NavMeshPlus.Components;
 using UnityEngine;
 
 namespace Game.InteractableComponents.Door
@@ -10,8 +10,8 @@ namespace Game.InteractableComponents.Door
     {
         private static readonly int Opened = Animator.StringToHash("isOpened");
         [SerializeField] private Game.InteractableComponents.Lever.Lever lever;
+        private NavMeshModifier[] _navMeshModifiers;
         private Animator _animator;
-        private BoxCollider2D _collider;
         private bool _isOpened;
 
         private void OnDestroy()
@@ -24,7 +24,7 @@ namespace Game.InteractableComponents.Door
             IsOpened = false;
             lever.OnInteractableStateChanged += OnStateChanged;
             _animator = GetComponent<Animator>();
-            _collider = GetComponent<BoxCollider2D>();
+            _navMeshModifiers = GetComponentsInChildren<NavMeshModifier>();
         }
 
         public void OnStateChanged(InteractableState state)
@@ -40,7 +40,12 @@ namespace Game.InteractableComponents.Door
         private void OpenStateChanged(bool value)
         {
             _animator.SetBool(Opened, value);
-            _collider.enabled = !value;
+            var walkableValue = value ? 0 : 1;
+            foreach (var modifier in _navMeshModifiers)
+            {
+                modifier.area = walkableValue;
+            }
+            GameApi.NavigationSurfaceManager.BakeSurface();
         }
 
         private bool IsOpened
